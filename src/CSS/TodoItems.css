@@ -1,0 +1,28 @@
+.done {
+  text-decoration: line-through;
+  width: 5px;
+}
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  color: black;
+  padding: 10px 20px;
+  width: 450px;
+  background: beige;
+  font-size: large;
+}
+
+@media (max-width: 600px) {
+  .todo-row {
+    width: 260px;
+  }
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+}

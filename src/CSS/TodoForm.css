@@ -1,0 +1,21 @@
+.todo-form {
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
+}
+@media (max-width: 600px) {
+  .todo-form {
+    width: 262px;
+  }
+}
+
+.todo-input {
+  width: 80%;
+  padding: 10px;
+}
+
+.todo-button {
+  margin: 0 5px;
+  padding: 10px;
+  cursor: pointer;
+}
